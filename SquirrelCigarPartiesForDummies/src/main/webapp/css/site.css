@@ -1,0 +1,106 @@
+body {
+    background-color: #E6E7E9;
+    font-family: "Nunito", sans-serif;
+}
+h2 {
+	margin-top: 1rem;
+}
+
+h3 {
+	padding-left: 19px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.blurb h2 {
+    color: #23AA8C;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    color: black;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.form-group {
+	width: 550px;
+	padding-left: 20px;
+	color: #E6E7E9;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+    color: black;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #23AA8C;
+}
+
+#mainNavbar .navbar-brand {
+    color: #23AA8C;
+    font-size: 1.5rem;
+}
+
+#headingGroup span {
+    color: #23AA8C;
+    font-weight: bold;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+#icon img {
+	width = 50px;
+}
+
+#top {
+	padding-top: 20px;
+}
+
+#top-right {
+	margin-top: 3rem;
+}
+
+#bookcover {
+	height: 440px;
+	padding-left: 15px;
+}
+
+#review-form {
+	background-color: #23AA8C;
+	margin-top: 3rem;
+	height: 440px;
+	width: 50%;
+}
+
+.navbar.scrolled {
+    background: rgb(255, 245, 7);
+    transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    
+hr {
+	border-top: 1px solid #23aa8c;
+}
+
+}
