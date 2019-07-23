@@ -1,0 +1,235 @@
+#logo {
+	height: 200px;
+}
+
+section {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: auto;
+	grid-template-areas:
+	"image parkName"
+	"image parkDescription"
+	"image parkDescription"
+	"image parkDescription";
+	grid-column-gap: 10px;
+	padding: 20px;
+	
+}
+
+#image {
+	grid-area: image;
+	display: flex;
+}
+
+#parkName {
+	grid-area: parkName;
+	display: flex;
+}
+#parkName a:hover{
+		text-decoration: none;
+}
+
+#parkDescription a:hover{
+		text-decoration: none;
+}
+#parkDescription {
+	grid-area: parkDescription;
+	display: flex;
+
+}
+
+
+#parkDetailView {
+	display: grid;
+	grid-template-columns: 4fr 2fr;
+	grid-template-rows: auto;
+	grid-template-areas:
+	"parkImage parkImage"
+	"parkHeader ."
+	"parkQuote ."
+	"descriptionBlock infoList";
+	grid-column-gap: 10px;
+	padding: 20px;
+}
+
+#parkImage {
+	grid-area: parkImage;
+	display: flex;
+}
+
+#parkHeader {
+	grid-area: parkHeader;
+	display: flex;
+}
+
+#parkQuote {
+	grid-area: parkQuote;
+
+}
+
+#descriptionBlock {
+	grid-area: descriptionBlock;
+	display: flex;
+}
+
+#infoList {
+	grid-area: infoList;
+	display: flex;
+}
+
+#weather {
+	display: flex;
+	padding: 20px;
+}
+
+#weather >tbody{
+	width: 100%;
+}
+
+#weather >tr{
+	width: 100%;
+	height: 600px;
+}
+
+.today {
+	width: 400px;	
+		
+}
+
+.today > h3{
+	font-size: 3em;
+	text-align: center;
+
+	margin-top: 4px;
+}
+
+#todayWeatherPic > img{
+	width: 300px;
+	margin-left: 50px;
+}
+.fourDay{
+
+	width: 250px;
+	background-color: #dfeffa;
+	justify-content: center;
+	align-items: flex-end;
+	height: 500px;
+	padding-left: 27px;
+	border-radius: 25px;
+} 
+
+.fourDay > h3{
+	padding-top: 20px;
+	text-align: center;
+	width: 200px;
+
+} 
+
+#weatherPic{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+#faveParksTable {
+	padding: 20px;
+	/* background-color: #EE82EE; */
+}
+
+#faveParksTable >p{
+	padding: 20px;
+	border-bottom: 2px solid black;
+}
+
+#faveParkImg {
+	width: 350px;
+	margin-right: 30px;
+	margin-bottom: 20px;
+}
+
+#faveParksDetail {
+	padding: 20px;
+}
+
+#faveParksHeader >td{
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 30px;
+/* 	border-bottom: 2px solid black; */
+}
+
+#surveyForm {
+	padding: 20px;
+}
+
+#survey > div {
+	margin-bottom: 20px;
+}
+
+#emailInputBox {
+	width: 16%;
+}
+
+#faveParkName{
+	margin-right: 100px;
+}
+
+#todayTemp >h4 {
+	margin-bottom: 0px;
+	justify-content: space-around;
+}
+#todayTemp {
+	display: flex;
+	justify-content: space-around;
+}
+
+#todayAdvisory {
+	margin-top: 40px;
+	margin-left: 50px;
+	width: 300px;
+	text-align: center;
+}
+
+#temp {
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-around;
+	width: 200px;
+}
+
+#temp >h6 {
+		justify-content: space-around;
+}
+
+#advisory {
+	margin-top: 20px;
+	width: 200px;
+	text-align: center;
+}
+
+#navbarNav {
+	justify-content: space-between;
+}
+
+h2 {
+	margin-bottom: 20px;
+}
+
+#loginForm {
+	width: 400px;
+}
+
+#registrationForm {
+	width: 400px;
+}
+
+ul.fa-ul li:before {
+	font-family: FontAwesome;
+	content:"\f14e";
+	margin: 0 5px 0 -15px;
+	color: black;
+}
+
+ul.fa-ul li {
+	font-size: 1.25em;
+}
