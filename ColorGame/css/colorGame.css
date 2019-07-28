@@ -80,7 +80,7 @@ img {
     align-items: baseline;
     height: 140px;
     width: 100%;
-    background-image: url("nav-background.jpg");
+    background-image: url("../img/nav-background.jpg");
 }
 
 .selected {
